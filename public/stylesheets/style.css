@@ -130,9 +130,18 @@
   }
 
 
-/********    BODY     ********/
-
-
+/********    Projects     ********/
+.projects{
+    background-color: #E76F51;
+    color: #03071E;
+}
+.projects > .row{
+    padding: 5%;
+}
+.projects > .row > img{
+    padding: 2%;
+    border-radius: 100%;
+}
 /********    FOOTER     ********/
 footer{
     position: fixed;

@@ -31,7 +31,7 @@
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <li><a href="#">Page 3</a></li>
+                    <li><a href="#project">Projects</a></li>
                     <li><a href="https://dev.to/parambhatt" target="_blank">Blogs</a></li>
                 </ul>
             </div>
@@ -60,7 +60,7 @@
     </div>
     <div id="skills" style="height: 2.5vh; background-color: #E76F51;"></div>
             
-    <div class="jumbotron skills" style="height: 100vh;">
+    <div class="jumbotron skills" style="height: 100vh; margin-bottom: 0;">
     
         <div class="text-center">
             <b><h2>My Skills</h2></b>
@@ -126,66 +126,90 @@
 
         </div>
     </div>
-    <div class="container-fluid bg-3 text-center" id="projects">
-        <h3>Some of my Work</h3><br>
-        <div class="row">
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    <div id="project" style="height: 0.5vh; background-color: #E76F51;"></div>
+    
+    <div class="jumbotron text-center projects" style=" margin-bottom: 0; padding-bottom: 0%;">
+        
+        <h1>Some of my Work</h1><br>
+        <div class="row" style="width:100vw">
+            <div class="col-md-5 col-sm-12">
+                <img src="public/images/author-checker.png" class="img-responsive" style="width:100%" alt="Image">
             </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            <div class="col-md-offset-2 col-md-5 col-sm-12 text-center" style="margin-top: 2.5%;">
+                <h3>Author Checker</h3>
+                <h4>Given a list of book titles, this is a React.JS app that will tell the author of the selected title, or if you input a particular title and it matches with the one in our database, it will show the author on its own as well.</h4>
+                <row class="links" style="margin-top: 5px;">
+                    <button> <a href="https://github.com/Param-Bhatt/bookChecker" target = "_blank">Github</a></button>
+                    <button><a href="https://author-checker.netlify.app/" target="_blank">Live</a></button>
+                </row>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            <div class="col-md-5 col-sm-12">
+                <img src="public/images/emoji-detector.png" class="img-responsive" style="width:100%" alt="Image">
             </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            <div class="col-md-offset-2 col-md-5 col-sm-12 text-center" style="margin-top: 2.5%;">
+                <h3>Emoji Detector</h3>
+                <h4>Given a list of emojis, this is a React.JS app that will tell the meaning of the selected emoji, or if you input a particular emoji and it matches with the one in our database, it will show the author on its own as well.</h4>
+                <row class="links" style="margin-top: 5px;">
+                    <button> <a href="https://github.com/Param-Bhatt/emoji-detector" target = "_blank">Github</a></button>
+                    <button><a href="https://emoji-detector.netlify.app/" target="_blank">Live</a></button>
+                </row>
             </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+        <div class="row">
+            <div class="col-md-5 col-sm-12">
+                <img src="public/images/heypirates.png" class="img-responsive" style="width:100%" alt="Image">
             </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            <div class="col-md-offset-2 col-md-5 col-sm-12 text-center" style="margin-top: 2.5%;">
+                <h3>Pirate Translator</h3>
+                <h4>This is a nice little fun app that I made as a part of neogCamp, which acts as a nice translator. It translates english into pirate-speak. If you are a fan of Pirates of Carribean, this is a must try out for you.</h4>
+                <row class="links" style="margin-top: 5px;">
+                    <button> <a href="https://github.com/Param-Bhatt/Pirate-speak" target = "_blank">Github</a></button>
+                    <button><a href="https://heypirates.netlify.app/" target="_blank">Live</a></button>
+                </row>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 col-sm-12">
+                <img src="public/images/heyminions.png" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-md-offset-2 col-md-5 col-sm-12 text-center" style="margin-top: 2.5%;">
+                <h3>Minion Translator</h3>
+                <h4>Another fun app, using the fun translations API, but this time, I go banana. I am a huge fan of minions,and decided to have a handy dandy translator of my own. Minion fans, lets go and try this out !!</h4>
+                <row class="links" style="margin-top: 5px;">
+                    <button> <a href="https://github.com/Param-Bhatt/neogCamp-vanillaJS" target = "_blank">Github</a></button>
+                    <button><a href="https://heyminions.netlify.app/" target="_blank">Live</a></button>
+                </row>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 col-sm-12">
+                <img src="public/images/paramQuiz.png" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-md-offset-2 col-md-5 col-sm-12 text-center" style="margin-top: 2.5%;">
+                <h3>Game of Thrones Quiz</h3>
+                <h4>My second project for neogCamp. This is a CLI app using repl.it, feel free to test out your knowledge. PS : only exact answers will be taken, and no nicknames, full names will only give you marks.</h4>
+                <row class="links" style="margin-top: 5px;">
+                    <button> <a href="https://github.com/Param-Bhatt/paramQuiz" target = "_blank">Github</a></button>
+                    <button><a href="https://repl.it/@param19/paramQuiz?embed=1&output=1#index.js" target="_blank">Live</a></button>
+                </row>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 col-sm-12">
+                <img src="public/images/tanayQuiz.png" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-md-offset-2 col-md-5 col-sm-12 text-center" style="margin-top: 2.5%;">
+                <h3>Sample Quiz</h3>
+                <h4>My first project for neogCamp. This is CLI app using repl.it, made as a follow along for the first lecture of neogCamp</h4>
+                <row class="links" style="margin-top: 5px;">
+                    <button> <a href="https://github.com/Param-Bhatt/tanayQuiz" target = "_blank">Github</a></button>
+                    <button><a href="https://repl.it/@param19/tanayQuiz?embed=1&output=1#index.js" target="_blank">Live</a></button>
+                </row>
             </div>
         </div>
     </div><br>
-
-    <div class="container-fluid bg-3 text-center">
-        <div class="row">
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-        </div>
-    </div><br><br>
 
     <footer class="text-center">
         <div class="footer-col-1">
