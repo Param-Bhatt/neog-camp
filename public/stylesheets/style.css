@@ -142,6 +142,32 @@
     padding: 2%;
     border-radius: 100%;
 }
+/********    BLOGS     ********/
+.blogs{
+    background-color: #E76F51;
+    color: #03071E;
+}
+.blogs > .text-center > .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+}
+.blogs > .text-center > .row > .blog {
+    flex : 30%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    height: 300px;
+    border: 3px solid white;
+    background-color: #b1e2f5;
+    max-width: 30%;
+    padding: 1%;
+}
+.blogs > .text-center > .row > .blog > .card-header > a{
+    margin-top: 10%;
+    font-size: 2.5rem;
+    color: #03071E;
+}
+
 /********    FOOTER     ********/
 footer{
     position: fixed;
